@@ -15,7 +15,7 @@ namespace EmployeeManagement.Controllers
         public IActionResult Index(string username, string password)
         {
             // Simple demo login - in real app, use proper authentication
-            if (username == "admin2027" && password == "password")
+            if (username == "admin2028" && password == "password")
             {
                 // Set a simple session flag
                 HttpContext.Session.SetString("IsLoggedIn", "true");
